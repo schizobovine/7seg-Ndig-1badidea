@@ -1,0 +1,2 @@
+<h1>7 Segments, <span style="font-family: fixed">${N}</span> Digits, 0x1BAD1DEA</h1>
+<p>Various attempts to build 7 segment displays of varying amounts of digits, powered mostly by Atmel ATTiny's of various sorts. No bobcats.</p>
