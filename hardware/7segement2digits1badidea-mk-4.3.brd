@@ -164,8 +164,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="31.5" y2="0" width="0" layer="20"/>
-<wire x1="31.5" y1="0" x2="31.5" y2="28" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="37" y2="0" width="0" layer="20"/>
+<wire x1="37" y1="0" x2="37" y2="21" width="0" layer="20"/>
+<wire x1="37" y1="21" x2="31.5" y2="21" width="0" layer="20"/>
+<wire x1="31.5" y1="21" x2="31.5" y2="28" width="0" layer="20"/>
 <wire x1="31.5" y1="28" x2="0" y2="28" width="0" layer="20"/>
 <wire x1="0" y1="28" x2="0" y2="0" width="0" layer="20"/>
 <hole x="5.75" y="25.75" drill="2.5"/>
@@ -271,26 +273,6 @@
 <wire x1="1.78" y1="0.93" x2="1.78" y2="-0.93" width="0.1524" layer="21"/>
 <wire x1="1.78" y1="-0.93" x2="-1.78" y2="-0.93" width="0.1524" layer="21"/>
 </package>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.1524" layer="51"/>
-<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1" dx="1" dy="1.2" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="1" dy="1.2" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="1" dy="1.2" layer="1"/>
-<text x="0" y="1.75" size="0.7" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<wire x1="-1.46" y1="-0.22" x2="-1.46" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="-1.46" y1="0.65" x2="-0.68" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="0.68" y1="0.65" x2="1.46" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="1.46" y1="-0.22" x2="1.46" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="-0.27" y1="-0.65" x2="0.27" y2="-0.65" width="0.1524" layer="21"/>
-<text x="0" y="-1.75" size="0.6" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
-</package>
 <package name="SPDT-RA-2.54MM">
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="-2.54" width="0.1524" layer="21"/>
@@ -323,24 +305,6 @@
 <wire x1="2.921" y1="-4.318" x2="2.667" y2="-4.318" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="-4.318" x2="3.175" y2="-4.318" width="0.1524" layer="51"/>
 <text x="2.54" y="1.524" size="0.6096" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="TACTILE-SWITCH-SMD">
-<wire x1="-1.5" y1="-2.5" x2="-2.5" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="-2.5" y1="-1.3" x2="-2.5" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="-1.5" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="2.5" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="1.3" x2="2.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="1.5" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="A@1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="A@2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="B@1" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="B@2" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.75" size="0.8" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.2032" layer="51"/>
 </package>
 <package name="BATTCON_20MM_MINE_STAHPIT">
 <wire x1="-7.35" y1="-7.5" x2="-4.65" y2="-10.55" width="0.2" layer="21"/>
@@ -614,37 +578,25 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VERSION" value="v01" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="SparkFun-DigitalIC" package="SO14" value="ATTINY84" x="15" y="14" smashed="yes">
-<attribute name="PROD_ID" value="IC-11285" x="15" y="30" size="0.5" layer="27" ratio="12" display="off"/>
-<attribute name="NAME" x="10.2" y="14" size="0.5" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="15" y="14" size="1" layer="27" font="vector" ratio="12" align="center"/>
+<element name="U1" library="SparkFun-DigitalIC" package="SO14" value="ATTINY84" x="15.5" y="15" smashed="yes" rot="R90">
+<attribute name="PROD_ID" value="IC-11285" x="-0.5" y="15" size="0.5" layer="27" ratio="12" rot="R90" display="off"/>
+<attribute name="NAME" x="15.5" y="10.2" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="15.5" y="15" size="1" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C1" library="A_butts" package="C0805" value="0.1uF" x="8" y="14" smashed="yes" rot="R270">
-<attribute name="NAME" x="8" y="16" size="0.7" layer="25" font="vector" ratio="12" align="bottom-center"/>
-<attribute name="VALUE" x="8" y="12" size="0.6" layer="27" font="vector" ratio="12" align="top-center"/>
+<element name="C1" library="A_butts" package="C0805" value="0.1uF" x="15.5" y="8.5" smashed="yes">
+<attribute name="NAME" x="13.5" y="8.5" size="0.7" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="17.5" y="8.5" size="0.6" layer="27" font="vector" ratio="12" rot="R90" align="top-center"/>
 </element>
-<element name="U2" library="A_butts" package="7SEG_2DIG_19MM_SMT_LESSSILK" value="7SEG_2DIG19MM_SMT_LESSSILK" x="15" y="14"/>
-<element name="AVRISP" library="A_butts" package="AVR-JST-6-PTH-RA-I2C" value="AVR_SPI_PRG_6AVR-JST-PTH-RA-I2C" x="29.7" y="14" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.7" y="5.5" size="0.6" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<element name="U2" library="A_butts" package="7SEG_2DIG_19MM_SMT_LESSSILK" value="7SEG_2DIG19MM_SMT_LESSSILK" x="15.75" y="14"/>
+<element name="AVRISP" library="A_butts" package="AVR-JST-6-PTH-RA-I2C" value="AVR_SPI_PRG_6AVR-JST-PTH-RA-I2C" x="30.65" y="12.9" smashed="yes" rot="MR90">
+<attribute name="NAME" x="32.85" y="4.6" size="0.6" layer="26" font="vector" ratio="12" rot="MR180" align="bottom-center"/>
 </element>
-<element name="R1" library="A_butts" package="R0805" value="10k" x="18" y="22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20" y="22" size="0.7" layer="26" font="vector" ratio="12" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="16" y="22" size="0.6" layer="28" font="vector" ratio="12" rot="MR90" align="top-center"/>
-</element>
-<element name="R2" library="A_butts" package="R0805" value="10k" x="18" y="25" smashed="yes" rot="MR180">
-<attribute name="NAME" x="16" y="25" size="0.7" layer="26" font="vector" ratio="12" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="20" y="25" size="0.6" layer="28" font="vector" ratio="12" rot="MR270" align="top-center"/>
-</element>
-<element name="Q1" library="A_butts" package="SOT23" value="2N7000" x="12" y="24" smashed="yes" rot="MR270">
-<attribute name="PROD_ID" value="TRANS-08345" x="12" y="24" size="0.5" layer="28" ratio="12" rot="MR270" display="off"/>
-<attribute name="NAME" x="10.25" y="24" size="0.7" layer="26" font="vector" ratio="12" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="13.75" y="24" size="0.6" layer="28" font="vector" ratio="12" rot="MR270" align="top-center"/>
+<element name="R1" library="A_butts" package="R0805" value="10k" x="25.5" y="13.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.5" y="15.5" size="0.7" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="25.5" y="11.5" size="0.6" layer="27" font="vector" ratio="12" align="top-center"/>
 </element>
 <element name="ON/OFF" library="A_butts" package="SPDT-RA-2.54MM" value="SWITCH-SPDTPTH-RA-2.54MM" x="29" y="25.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.326" y="26.04" size="0.6096" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
-</element>
-<element name="RESET" library="A_butts" package="TACTILE-SWITCH-SMD" value="SPST-NO-TACTSMD-TINY" x="24.5" y="21.1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="24.5" y="18.15" size="0.8" layer="26" font="vector" ratio="12" rot="MR180" align="bottom-center"/>
 </element>
 <element name="BAT1" library="A_butts" package="BATTCON_20MM_MINE_STAHPIT" value="CR2032" x="13" y="10.5" smashed="yes" rot="MR270"/>
 </elements>
@@ -654,96 +606,67 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R1" pad="2"/>
-<contactref element="R2" pad="2"/>
 <contactref element="ON/OFF" pad="2"/>
-<wire x1="18.95" y1="25" x2="26.46" y2="25.35" width="0" layer="19" extent="16-16"/>
-<wire x1="17.05" y1="22" x2="18.95" y2="25" width="0" layer="19" extent="16-16"/>
-<wire x1="11.19" y1="11.2" x2="17.05" y2="22" width="0" layer="19" extent="1-16"/>
-<wire x1="8" y1="13.05" x2="11.19" y2="11.2" width="0" layer="19" extent="1-1"/>
-<wire x1="29.7" y1="9" x2="26.46" y2="25.35" width="0" layer="19" extent="1-1"/>
+<wire x1="25.5" y1="12.55" x2="30.65" y2="17.9" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3" y1="11.19" x2="25.5" y2="12.55" width="0" layer="19" extent="1-1"/>
+<wire x1="16.45" y1="8.5" x2="18.3" y2="11.19" width="0" layer="19" extent="1-1"/>
+<wire x1="26.46" y1="25.35" x2="30.65" y2="17.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="AVRISP" pad="GND"/>
 <contactref element="U1" pad="14"/>
 <contactref element="C1" pad="1"/>
-<contactref element="Q1" pad="2"/>
-<contactref element="RESET" pad="B@1"/>
-<contactref element="RESET" pad="B@2"/>
 <polygon width="0.1524" layer="1">
 <vertex x="-0.1" y="-0.1"/>
-<vertex x="31.6" y="-0.1"/>
-<vertex x="31.6" y="28.1"/>
+<vertex x="37.1" y="-0.1"/>
+<vertex x="37.1" y="28.1"/>
 <vertex x="-0.1" y="28.1"/>
 </polygon>
-<wire x1="29.7" y1="15" x2="27.294" y2="19.195" width="0" layer="19" extent="16-16"/>
-<wire x1="21.706" y1="19.195" x2="27.294" y2="19.195" width="0" layer="19" extent="16-16"/>
-<wire x1="13" y1="23.05" x2="11.19" y2="16.8" width="0" layer="19" extent="1-16"/>
+<contactref element="BAT1" pad="BOTTOM"/>
+<polygon width="0.1524" layer="16">
+<vertex x="-0.1" y="-0.1"/>
+<vertex x="37.1" y="-0.1"/>
+<vertex x="37.1" y="28.1"/>
+<vertex x="-0.1" y="28.1"/>
+</polygon>
 </signal>
 <signal name="DIG1">
 <contactref element="U2" pad="8"/>
-<contactref element="U1" pad="7"/>
-<wire x1="18.81" y1="11.2" x2="15" y2="23.525" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="6"/>
+<wire x1="18.3" y1="17.54" x2="15.75" y2="23.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A">
 <contactref element="U2" pad="10"/>
-<contactref element="U1" pad="13"/>
-<wire x1="12.46" y1="16.8" x2="9.92" y2="23.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U1" pad="4"/>
 <contactref element="R1" pad="1"/>
 <contactref element="AVRISP" pad="RESET"/>
-<contactref element="RESET" pad="A@1"/>
-<contactref element="RESET" pad="A@2"/>
-<wire x1="29.7" y1="19" x2="27.294" y2="23.005" width="0" layer="19" extent="16-16"/>
-<wire x1="21.706" y1="23.005" x2="27.294" y2="23.005" width="0" layer="19" extent="16-16"/>
-<wire x1="18.95" y1="22" x2="21.706" y2="23.005" width="0" layer="19" extent="16-16"/>
-<wire x1="15" y1="11.2" x2="18.95" y2="22" width="0" layer="19" extent="1-16"/>
+<wire x1="18.3" y1="15" x2="25.5" y2="14.45" width="0" layer="19" extent="1-1"/>
+<wire x1="30.65" y1="7.9" x2="25.5" y2="14.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B">
 <contactref element="U2" pad="9"/>
-<contactref element="U1" pad="12"/>
-<wire x1="13.73" y1="16.8" x2="12.46" y2="23.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D">
 <contactref element="U2" pad="4"/>
-<contactref element="U1" pad="5"/>
-<wire x1="17.54" y1="4.475" x2="16.27" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F">
 <contactref element="U2" pad="6"/>
-<contactref element="U1" pad="10"/>
-<wire x1="16.27" y1="16.8" x2="20.08" y2="23.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G">
 <contactref element="U2" pad="5"/>
-<contactref element="U1" pad="6"/>
-<wire x1="20.08" y1="4.475" x2="17.54" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E">
 <contactref element="U2" pad="3"/>
-<contactref element="U1" pad="3"/>
-<wire x1="15" y1="4.475" x2="13.73" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C">
 <contactref element="U2" pad="1"/>
-<contactref element="U1" pad="2"/>
-<wire x1="9.92" y1="4.475" x2="12.46" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG2">
 <contactref element="U2" pad="7"/>
-<contactref element="U1" pad="8"/>
-<wire x1="18.81" y1="16.8" x2="17.54" y2="23.525" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="R2" pad="1"/>
-<contactref element="Q1" pad="1"/>
-<wire x1="13" y1="24.95" x2="17.05" y2="25" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$2">
-<contactref element="Q1" pad="3"/>
-<contactref element="BAT1" pad="BOTTOM"/>
-<wire x1="13" y1="10.5" x2="11" y2="24" width="0" layer="19" extent="16-16"/>
+<contactref element="U1" pad="5"/>
+<wire x1="18.3" y1="16.27" x2="18.29" y2="23.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="BAT1" pad="TOP@1"/>
